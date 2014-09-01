@@ -13,6 +13,9 @@ gem 'compass'
 gem 'zurb-foundation'
 gem 'yui-compressor'
 
+# Slim
+gem 'jekyll-slim', '~> 0.8.2'
+
 # Server
 gem 'rake'
 gem 'puma'
