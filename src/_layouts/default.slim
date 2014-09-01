@@ -7,13 +7,18 @@ html
     title
       | {{ page.title }}
   body
-    .site
-      .header
-        h1.title
-          a href="/"
-          | {{ site.name }}
-        a.extra href="/" home
-      | {{ content }}
-      .footer
-        .contact
-          p Your Name
+    .header
+      .row
+        .large-12.columns.text-center
+          h1.title
+            a href="/"
+              | {{ site.name }}
+            a.button.small href="/" Home
+        .row
+          .large-12.columns
+          | {{ content }}
+        .footer
+          .row
+            .large-12.columns.text-center
+              .contact
+                p Your Name

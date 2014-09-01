@@ -1,5 +1,8 @@
+# Base template for a Foundation Site
+
 Inspired by http://www.neverstopbuilding.com/jekyll-slim-compass-blog.
 
-Development
+## Development
 
 `bundle exec guard`
+
